@@ -1,4 +1,4 @@
-package src;
+package year2022;
 
 public class Exam2022_96 {
 
