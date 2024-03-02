@@ -1,0 +1,24 @@
+# Compiled files
+*.exe
+*.dll
+*.obj
+*.lib
+*.so
+*.pyc
+
+# IDE and OS specific files
+*.suo
+*.sln
+*.vscode
+*.log
+*.DS_Store
+thumb.db
+
+# Temporary files
+*.tmp
+*~
+
+# Specific folders (adjust as needed)
+/build/
+/target/
+/bin/
