@@ -23,3 +23,19 @@ thumb.db
 /build/
 /target/
 /bin/
+.idea/
+
+# Additional common ignore patterns (optional)
+# Adjust this section based on your specific project needs
+
+# Python virtual environment
+.env
+venv/
+
+# Node.js modules
+node_modules/
+
+# Specific file types
+*.psd
+*.jpg
+*.png
