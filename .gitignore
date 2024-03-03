@@ -18,7 +18,8 @@ thumb.db
 *.tmp
 *~
 
-# Specific folders (adjust as needed)
+# Specific folders
+/out/
 /build/
 /target/
 /bin/
