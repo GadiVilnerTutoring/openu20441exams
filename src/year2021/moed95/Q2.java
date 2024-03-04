@@ -50,4 +50,8 @@ public class Q2
 		return pos;
 	}
 
+	private static int[] ask(int x, int y) {
+		return null;
+	}
+
 }
