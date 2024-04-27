@@ -1,7 +1,6 @@
-package year2020;
+package year2020.moed84;
 
-public class Exam2020_84 {
-
+public class Q1 {
     public static void main(String[] args) {
         char[][] arr = {
                 {'q','w','e','o','t'},
@@ -26,7 +25,7 @@ public class Exam2020_84 {
         if (i == arr.length) {
             return false;
         }
-        if (j == arr[0].length) {
+        if (j == arr.length) {
             return findWord(arr, word, printMat, i + 1, 0);
         }
 
@@ -35,17 +34,6 @@ public class Exam2020_84 {
         }
 
         return findWord(arr, word, printMat, i, j + 1);
-    }
-
-     private static boolean scanMat(int[][] mat, int i, int j) {
-        if (i == mat.length) {
-            return false;
-        }
-        if (j == mat[0].length) {
-            return scanMat(mat, i + 1, 0);
-        }
-
-        return scanMat(mat, i, j + 1);
     }
 
     private static boolean findWord(char[][] arr, String word, int[][] printMat, int i, int j, int wordIndex) {
